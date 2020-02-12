@@ -1,0 +1,125 @@
+SpringBoot-Custom-1		SpringBoot + Quartz、SpringBoot定时器 + WebSocket实时在线聊天
+SpringBoot-Custom-2		SpringBoot + XXL-JOB 分布式定时器 + Elastic-JOB
+SpringBoot-Custom-3		SpringBoot + Apollo 配置中心
+SpringBoot-Custom-4		SpringBoot + 分布式锁的解决办法 - zookeeper分布式锁-1 + Redis分布式锁-1
+SpringBoot-Custom-5		SpringBoot + Zookeeper分布式锁-2 + Redis分布式锁-2
+SpringBoot-Custom-6		SpringBoot + Redis - 使用Redis解决分布式Session一致性
+SpringBoot-Custom-7		Java原生拦截器的使用 - LoginInterceptor implements HandlerInterceptor
+SpringBoot-Custom-8		HTTPClient接口、RESTful、Web Services + Web Service远程调用(RPC的一个实现)
+SpringBoot-Custom-9		SpringBoot + JDK原生锁(AQS+CAS) + 死锁案例
+SpringBoot-Custom-10	SpringBoot + Token + Apache POI
+SpringBoot-Custom-11	[单点登陆 - 简单版 - Redis+UUID]
+SpringBoot-Custom-12	SpringBoot + SpringSecurity
+SpringBoot-Custom-13	springboot中配置addResourceHandler和addResourceLocations - (文件与图片上传接收)
+SpringBoot-Custom-14	SpringBoot + 整合Shiro + 死锁案例
+SpringBoot-Custom-15	SpringBoot + 函数式编程(lambda)
+SpringBoot-Custom-16	SpringBoot + UUID-10W并发 + MySQL
+SpringBoot-Custom-17	SpringBoot + MyBatis + MyBatisPlus(共存)
+SpringBoot-Custom-18	SpringBoot + XXL-SSO
+SpringBoot-Custom-19	[已过时]SpringBoot + ActiveMQ (Consumer)
+SpringBoot-Custom-20	[已过时]SpringBoot + ActiveMQ (Producer)
+SpringBoot-Custom-21	SpringBoot基础 + 反射 + 动态代理 + 泛型 + 多线程 + JVM锁对象(原生锁) + 自定义注解
+SpringBoot-Custom-22	Jenkins + Docker + GitHub 持续部署
+SpringBoot-Custom-23	SpringBoot + MyCat + MySQL读写分离压测 -> 188:8066(MyCat)|132(master)|133(slave)
+SpringBoot-Custom-24	SpringBoot + 文件|图片 + 上传|下载 + 七牛云 + 二维码
+SpringBoot-Custom-25	SpringBoot + ELK日志平台 + ES实时搜索
+SpringBoot-Custom-26	SpringBoot + RocketMQ (Producer) + 事务最终一致性
+SpringBoot-Custom-27	SpringBoot + RocketMQ (Consumer) + 事务最终一致性
+SpringBoot-Custom-28	SpringBoot + 设计模式
+SpringBoot-Custom-29	SpringBoot + 算法
+SpringBoot-Custom-30	SpringBoot + 基于Dubbo的TxLCN分布式事务解决1
+SpringBoot-Custom-31	SpringBoot + 基于Dubbo的TxLCN分布式事务解决2
+SpringBoot-Custom-32	SpringBoot + 区块链原型 + 百度云API + 
+
+
+
+
+SpringBoot-SE-01		SpringBoot + JVM深入理解
+
+
+
+
+
+
+
+
+
+Ext扩展包
+		<!-- swagger2 接口管理 -->
+		<dependency>
+		    <groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger2</artifactId>
+		    <version>2.9.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger-ui</artifactId>
+		    <version>2.9.2</version>
+		</dependency>
+		
+		<!-- Apache 扩展包 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>commons-codec</groupId>
+		    <artifactId>commons-codec</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.54</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-math3</artifactId>
+		    <version>3.6.1</version>
+		</dependency>
+		
+		
+		
+		
+		
+		
+		
+分布式组件的集成与使用：
+XXL-SSO：
+单点登陆烂系统设计思想都是一致
+联合第三方登陆都会遵循oatuh2.0协议
+认证授权中心的修改:xxl-sso-server
+1、修改部分 - 认证授权中心 - xxl-sso-server - 重构接入微服务的注册中心
+2、修改登陆认证接口 - 调用会员数据库
+3、修改登陆界面
+
+SSOClient集成
+1、集成XXLSSOConfig使用XXLSSOWebFilter
+2、Springboot集成 - 复制工程 - 添加依赖 - 修改登陆接口
+
+【缺少】ActiveMQ与RocketMQ与kafka的应用
+应用点及需要解决的问题：
+1、异步消费
+2、同步消费
+3、幂等性
+4、重复性消费
+5、集群消息生成控制
+6、全局唯一性ID
+7、分布式事务
+
+Git + Maven + jenkins + 
+		
